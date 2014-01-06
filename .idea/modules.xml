@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GateWeb/GateWeb.iml" filepath="$PROJECT_DIR$/GateWeb/GateWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gate.iml" filepath="$PROJECT_DIR$/gate.iml" />
     </modules>
   </component>
 </project>
