@@ -8,10 +8,10 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    runtime "log4j:log4j:1.2.17"
-    runtime 'org.eclipse.jetty:jetty-server:9.1.0.v20131115'
-    runtime 'org.eclipse.jetty:jetty-http:9.1.0.v20131115'
-    runtime 'org.eclipse.jetty:jetty-webapp:9.1.0.v20131115'
-    runtime 'org.eclipse.jetty:jetty-servlet:9.1.0.v20131115'
+    compile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile 'org.eclipse.jetty:jetty-server:9.1.0.v20131115'
+    compile 'org.eclipse.jetty:jetty-http:9.1.0.v20131115'
+    compile 'org.eclipse.jetty:jetty-webapp:9.1.0.v20131115'
+    compile 'org.eclipse.jetty:jetty-servlet:9.1.0.v20131115'
 }
