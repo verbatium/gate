@@ -1,5 +1,7 @@
 package ee.era.code.GateWeb;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import org.apache.log4j.Logger;
 import org.eclipse.jetty.server.*;
 import org.eclipse.jetty.webapp.WebAppContext;
@@ -7,10 +9,17 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class Launcher {
     private static final Logger LOG = Logger.getLogger(Launcher.class);
     public static final long startTimestamp = System.currentTimeMillis();
+    public static Injector injector;
 
     public static void main(String args[]) throws Exception {
         LOG.error("Starting Gate");
         Launcher launcher = new Launcher();
+        GuiceModule guiceModule = getGuiceModule();
+        if (guiceModule == null) System.exit(-1);
+
+        LOG.info("Using " + guiceModule.getEnvironmentName());
+        injector = Guice.createInjector(guiceModule);
+        injector.injectMembers(launcher);
         launcher.run();
     }
 
@@ -28,7 +37,7 @@ public class Launcher {
         WebAppContext webAppContext = new WebAppContext("webapp", "/");
         //webAppContext.setErrorHandler(new PlainTextErrorHandler());
         webAppContext.setMaxFormContentSize(20 * 1024 * 1024);
-        webAppContext.setInitParameter("org.eclipse.jetty.servlet.Default.dirAllowed", "true");
+        webAppContext.setInitParameter("org.eclipse.jetty.servlet.Default.dirAllowed", "false");
         return webAppContext;
     }
 
@@ -37,5 +46,9 @@ public class Launcher {
         http.setPort(8080);
         http.setIdleTimeout(30000);
         return http;
+    }
+
+    public static GuiceModule getGuiceModule() {
+        return new DevelopmentGuiceModule();
     }
 }

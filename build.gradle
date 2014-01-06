@@ -14,4 +14,11 @@ dependencies {
     compile 'org.eclipse.jetty:jetty-http:9.1.0.v20131115'
     compile 'org.eclipse.jetty:jetty-webapp:9.1.0.v20131115'
     compile 'org.eclipse.jetty:jetty-servlet:9.1.0.v20131115'
+    compile 'org.apache.velocity:velocity:1.7'
+    compile 'com.google.inject:guice:3.0'
+    compile 'org.yaml:snakeyaml:1.13'
+    compile 'com.google.guava:guava:15.0'
+
+
+
 }

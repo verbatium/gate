@@ -1,0 +1,4 @@
+#@admin_layout("dashboard")
+<h1>Dashboard</h1>
+$now
+#end

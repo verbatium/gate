@@ -1,0 +1,55 @@
+#macro(common_layout $active $title $package $menu $content)
+<!DOCTYPE html>
+<html lang="$Labels.getLanguage()">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Gate</title>
+ </head>
+  <body>
+  <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            #if( $isAdmin and $package == "provider" )
+              <a class="pull-left clear btn btn-danger" href="/provider/clear-provider-role">Resign</a>
+            #end
+            <a class="brand" href="/"><small><strong>AVP</strong>$title</small></a>
+            <div class="nav-collapse">
+              <ul class="nav">
+                #foreach( $pages in $menu )
+                  #if( $pages.size() > 1 )
+                    <li class="dropdown#if( $pages.contains($active) ) active#end">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">#label("menu.${package}.$pages[0]") <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        #foreach( $item in $pages )
+                          <li#if( $active == $item ) class="active"#end><a href="/$package/$item">#label("menu.${package}.${item}")</a></li>
+                        #end
+                      </ul>
+                    </li>
+                  #else
+                    #set( $item = $pages[0] )
+                    <li#if( $active == $item ) class="active"#end><a href="/$package/$item">#label("menu.${package}.${item}")</a></li>
+                  #end
+                #end
+              </ul>
+            </div>
+            #if( $testEnvironment )<span class="navbar-text pull-right environment">#label("testEnvironment")</span>#end
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
+#end
+
+
+#macro(label $key)$Labels.get($key)#end
+
+#macro(admin_layout $active)
+#common_layout($active, "Admin", "admin", 
+	[["dashboard"],["/"]],
+	$bodyContent)
+#end

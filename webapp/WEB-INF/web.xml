@@ -5,4 +5,24 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         version="2.5">
     <display-name>Gates</display-name>
+<!--
+    <filter>
+        <filter-name>AccessFilter</filter-name>
+        <filter-class>ee.era.code.GateWeb.AccessFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AccessFilter</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+        <url-pattern>/</url-pattern>
+    </filter-mapping>
+-->
+    <servlet>
+        <servlet-name>UIServlet</servlet-name>
+        <servlet-class>ee.era.code.GateWeb.ui.UIServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UIServlet</servlet-name>
+        <url-pattern>/admin/*</url-pattern>
+    </servlet-mapping>
 </web-app>
