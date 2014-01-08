@@ -31,7 +31,7 @@ public class Labels {
         setLabels(stream);
     }
     public static String getLanguage() {
-        if (language.get()==null) setLanguage("et");
+        if (language.get()==null) setLanguage("ru");
         return language.get();
     }
     public static void setContext(String context) {

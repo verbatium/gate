@@ -6,10 +6,13 @@ import org.apache.log4j.Logger;
 import org.eclipse.jetty.server.*;
 import org.eclipse.jetty.webapp.WebAppContext;
 
+import javax.inject.Inject;
+
 public class Launcher {
     private static final Logger LOG = Logger.getLogger(Launcher.class);
     public static final long startTimestamp = System.currentTimeMillis();
     public static Injector injector;
+    @Inject LoginService loginService;
 
     public static void main(String args[]) throws Exception {
         LOG.error("Starting Gate");
@@ -24,6 +27,7 @@ public class Launcher {
     }
 
     void run() throws Exception {
+        loginService.loadUsers();
         Server server = new Server();
         ServerConnector http = getHttpConnector(server);
         server.setConnectors(new Connector[]{http});

@@ -6,7 +6,9 @@ version = '1.0'
 repositories {
     mavenCentral()
 }
-
+configurations {
+    api
+}
 dependencies {
     compile group: 'junit', name: 'junit', version: '4.11'
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
@@ -18,7 +20,25 @@ dependencies {
     compile 'com.google.inject:guice:3.0'
     compile 'org.yaml:snakeyaml:1.13'
     compile 'com.google.guava:guava:15.0'
-
-
-
+    compile 'org.webjars:bootstrap:3.0.3'
+    api 'org.webjars:bootstrap:3.0.3'
+}
+task extractApi(type: Copy) {
+    dependsOn configurations.api
+    from { // use of closure defers evaluation until execution time
+        configurations.api.collect { zipTree(it) }
+    }
+    eachFile { FileCopyDetails fcp ->
+        if (fcp.relativePath.pathString.startsWith('META-INF/resources/webjars/bootstrap/3.0.3/')) {
+            // remap the file to the root
+            def segments = fcp.relativePath.segments
+            def pathsegments =segments[5..-1] as String[]
+            fcp.relativePath = new RelativePath(!fcp.file.isDirectory(), pathsegments)
+        }
+        else {
+            fcp.exclude()
+        }
+    }
+    into file("webapp/")
+    includeEmptyDirs = false
 }

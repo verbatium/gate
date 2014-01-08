@@ -25,6 +25,8 @@ public abstract class GuiceModule extends AbstractModule {
         velocity.setProperty(RUNTIME_LOG_LOG4J_LOGGER, "Velocity");
         velocity.setProperty(RESOURCE_LOADER, "file");
         velocity.setProperty(FILE_RESOURCE_LOADER_PATH, "webapp/WEB-INF");
+        velocity.setProperty("input.encoding","UTF-8");
+        velocity.setProperty("output.encoding","UTF-8");
         //velocity.setProperty(FILE_RESOURCE_LOADER_CACHE, isDevelopment() ? "false" : "true");
         velocity.setProperty(VM_LIBRARY, "/templates/macros.vm");
         velocity.setProperty(VM_LIBRARY_AUTORELOAD, "true");

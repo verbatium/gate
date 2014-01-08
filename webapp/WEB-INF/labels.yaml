@@ -2,3 +2,11 @@ menu.admin.dashboard:
   et: "Dashboard"
   en: "Dashboard"
   ru: "Dashboard"
+menu.admin.users:
+  et: "Kasutajad"
+  en: "Users"
+  ru: "Пользователи"
+menu.admin.newuser:
+  et: "Uus kasutajad"
+  en: "New User"
+  ru: "Новый пользователь"

@@ -1,0 +1,103 @@
+2014.01.08 00:05:06,234 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 00:05:06,242 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 00:05:06,920 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 00:05:06,920 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 00:05:06,954 +0200 [7MB] INFO  Launcher - Gate started in 721 ms
+2014.01.08 00:05:12,862 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 00:05:12,867 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 00:05:12,868 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 00:05:12,868 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 00:05:12,868 +0200 [7MB] INFO  AccessFilter - orhdposit@gmail.com:dfdf
+2014.01.08 00:07:08,571 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 00:07:08,575 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 00:12:17,749 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 00:12:17,753 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 00:12:18,466 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 00:12:18,466 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 00:12:18,505 +0200 [7MB] INFO  Launcher - Gate started in 757 ms
+2014.01.08 00:12:22,176 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 00:12:22,182 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 00:12:22,182 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 00:12:22,183 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 00:12:22,183 +0200 [7MB] INFO  AccessFilter - orhdposit@gmail.com:dfdf
+2014.01.08 00:17:52,971 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 00:17:52,976 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 00:17:53,233 +0200 [5MB] INFO  LoginService - User loaded
+2014.01.08 00:17:53,591 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 00:17:53,592 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 00:17:53,622 +0200 [7MB] INFO  Launcher - Gate started in 651 ms
+2014.01.08 00:18:12,679 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 00:18:12,684 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 00:18:12,684 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 00:18:12,684 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 00:18:12,684 +0200 [7MB] INFO  AccessFilter - orhdposit@gmail.com:dfdf
+2014.01.08 00:19:11,916 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 00:19:11,920 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 00:19:12,169 +0200 [5MB] INFO  LoginService - User loaded
+2014.01.08 00:19:12,493 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 00:19:12,494 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 00:19:12,521 +0200 [7MB] INFO  Launcher - Gate started in 605 ms
+2014.01.08 00:19:23,545 +0200 [6MB] INFO  AccessFilter - 
+2014.01.08 00:19:23,550 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 00:19:23,550 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 00:19:23,550 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 00:19:23,551 +0200 [7MB] INFO  AccessFilter - orhdposit@gmail.com:dfdf
+2014.01.08 12:04:32,985 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.08 12:04:32,989 +0200 [5MB] INFO  Launcher - Using Development
+2014.01.08 12:04:33,358 +0200 [3MB] INFO  LoginService - User loaded
+2014.01.08 12:04:33,851 +0200 [6MB] INFO  Labels - Loaded 3 labels
+2014.01.08 12:04:33,851 +0200 [6MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 12:04:33,883 +0200 [7MB] INFO  Launcher - Gate started in 899 ms
+2014.01.08 12:04:37,326 +0200 [6MB] INFO  AccessFilter - 
+2014.01.08 12:04:37,326 +0200 [6MB] INFO  AccessFilter - null:null
+2014.01.08 12:04:37,583 +0200 [9MB] INFO  UIServlet - [:8080] GET /home/login - 0ms
+2014.01.08 12:04:42,462 +0200 [9MB] INFO  AccessFilter - 
+2014.01.08 12:04:42,483 +0200 [9MB] INFO  AccessFilter - Email
+2014.01.08 12:04:42,483 +0200 [9MB] INFO  AccessFilter - Password
+2014.01.08 12:04:42,483 +0200 [9MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:04:42,483 +0200 [9MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:06:52,590 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 12:06:52,598 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 12:06:52,902 +0200 [5MB] INFO  LoginService - User loaded
+2014.01.08 12:07:16,700 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 12:07:16,701 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 12:07:18,494 +0200 [7MB] INFO  Launcher - Gate started in 25905 ms
+2014.01.08 12:08:42,581 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 12:08:42,585 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 12:08:42,585 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 12:08:42,585 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:08:42,585 +0200 [7MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:09:36,597 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 12:09:36,597 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 12:09:36,598 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 12:09:36,598 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:09:36,598 +0200 [7MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:09:46,915 +0200 [8MB] INFO  AccessFilter - 
+2014.01.08 12:09:46,915 +0200 [8MB] INFO  AccessFilter - Email
+2014.01.08 12:09:46,915 +0200 [8MB] INFO  AccessFilter - Password
+2014.01.08 12:09:46,915 +0200 [8MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:09:46,915 +0200 [8MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:10:05,333 +0200 [4MB] INFO  AccessFilter - 
+2014.01.08 12:10:05,333 +0200 [4MB] INFO  AccessFilter - Email
+2014.01.08 12:10:05,333 +0200 [4MB] INFO  AccessFilter - Password
+2014.01.08 12:10:05,334 +0200 [4MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:10:05,334 +0200 [4MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:10:15,536 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.08 12:10:15,542 +0200 [3MB] INFO  Launcher - Using Development
+2014.01.08 12:10:15,837 +0200 [5MB] INFO  LoginService - User loaded
+2014.01.08 12:10:33,778 +0200 [5MB] INFO  Labels - Loaded 3 labels
+2014.01.08 12:10:33,778 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 12:10:33,811 +0200 [7MB] INFO  Launcher - Gate started in 18276 ms
+2014.01.08 12:11:30,310 +0200 [7MB] INFO  AccessFilter - 
+2014.01.08 12:11:37,375 +0200 [7MB] INFO  AccessFilter - Email
+2014.01.08 12:11:38,521 +0200 [7MB] INFO  AccessFilter - Password
+2014.01.08 12:11:39,602 +0200 [7MB] INFO  AccessFilter - customerEIC
+2014.01.08 12:11:40,371 +0200 [7MB] INFO  AccessFilter - Admin:aaa
+2014.01.08 12:21:32,491 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.08 12:21:32,496 +0200 [5MB] INFO  Launcher - Using Development
+2014.01.08 12:21:32,811 +0200 [3MB] INFO  LoginService - User loaded
+2014.01.08 12:21:33,135 +0200 [6MB] INFO  Labels - Loaded 3 labels
+2014.01.08 12:21:33,135 +0200 [6MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.08 12:21:33,167 +0200 [7MB] INFO  Launcher - Gate started in 676 ms
+2014.01.08 12:21:40,803 +0200 [6MB] INFO  AccessFilter - 
+2014.01.08 12:21:40,806 +0200 [6MB] INFO  AccessFilter - Admin:aaa

@@ -1,0 +1,127 @@
+2014.01.06 11:34:21,474 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 11:41:18,240 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 11:44:51,444 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 11:54:17,612 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 12:03:15,488 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 12:17:12,985 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 12:36:41,026 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 13:44:20,781 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 13:44:21,056 +0200 [4MB] INFO  Launcher - Gate started in 276 ms
+2014.01.06 14:11:50,568 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 14:11:50,851 +0200 [4MB] INFO  Launcher - Gate started in 283 ms
+2014.01.06 14:20:37,426 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 14:20:37,677 +0200 [4MB] INFO  Launcher - Gate started in 252 ms
+2014.01.06 14:23:57,999 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 14:23:58,277 +0200 [5MB] INFO  Launcher - Gate started in 279 ms
+2014.01.06 14:27:57,608 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 14:27:57,876 +0200 [4MB] INFO  Launcher - Gate started in 269 ms
+2014.01.06 14:34:14,926 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 14:34:15,193 +0200 [4MB] INFO  Launcher - Gate started in 267 ms
+2014.01.06 14:34:26,640 +0200 [4MB] INFO  UIServlet - [:8080] GET /admin - 0ms
+2014.01.06 14:36:41,880 +0200 [5MB] INFO  UIServlet - [:8080] GET /admin/fignja - 0ms
+2014.01.06 14:37:25,716 +0200 [5MB] INFO  UIServlet - [:8080] GET /admin - 0ms
+2014.01.06 19:08:15,897 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:08:16,167 +0200 [4MB] INFO  Launcher - Gate started in 271 ms
+2014.01.06 19:08:46,720 +0200 [5MB] INFO  UIServlet - [:8080] GET /admin/ - 0ms
+2014.01.06 19:08:54,334 +0200 [5MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 19:12:16,492 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:12:16,735 +0200 [5MB] INFO  Launcher - Gate started in 244 ms
+2014.01.06 19:12:22,716 +0200 [4MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 19:12:57,539 +0200 [3MB] ERROR Launcher - Starting Gate
+2014.01.06 19:12:57,882 +0200 [3MB] INFO  Launcher - Gate started in 344 ms
+2014.01.06 19:31:33,623 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:31:33,627 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 19:31:34,044 +0200 [5MB] INFO  Launcher - Gate started in 422 ms
+2014.01.06 19:31:39,345 +0200 [9MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 19:37:53,178 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:37:53,180 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 19:37:53,542 +0200 [5MB] INFO  Launcher - Gate started in 365 ms
+2014.01.06 19:40:44,662 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:40:44,664 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 19:40:45,029 +0200 [5MB] INFO  Launcher - Gate started in 368 ms
+2014.01.06 19:52:41,389 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:52:41,392 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 19:52:41,743 +0200 [5MB] INFO  Launcher - Gate started in 355 ms
+2014.01.06 19:57:24,848 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 19:57:24,850 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 19:57:25,208 +0200 [5MB] INFO  Launcher - Gate started in 361 ms
+2014.01.06 19:59:00,282 +0200 [9MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:04:13,672 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 20:04:13,674 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 20:04:14,036 +0200 [5MB] INFO  Launcher - Gate started in 365 ms
+2014.01.06 20:04:18,064 +0200 [9MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:08:14,019 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:08:28,446 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:08:38,285 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 20:08:40,120 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 20:10:26,885 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:10:54,285 +0200 [8MB] INFO  UIServlet - [:8080] GET /admin/Dashboard - 0ms
+2014.01.06 20:10:59,728 +0200 [8MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 20:49:40,932 +0200 [8MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 21:34:30,645 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 21:34:30,648 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 21:34:31,077 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 21:34:31,078 +0200 [5MB] INFO  Labels - Available languages: [en, et]
+2014.01.06 21:34:31,105 +0200 [6MB] INFO  Launcher - Gate started in 460 ms
+2014.01.06 21:34:41,758 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 21:34:45,491 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:15:23,977 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 22:15:23,979 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 22:15:24,400 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 22:15:24,400 +0200 [5MB] INFO  Labels - Available languages: [en, et]
+2014.01.06 22:15:24,424 +0200 [6MB] INFO  Launcher - Gate started in 448 ms
+2014.01.06 22:15:28,197 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:16:43,593 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 22:16:43,595 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 22:16:44,016 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 22:16:44,017 +0200 [5MB] INFO  Labels - Available languages: [en, et]
+2014.01.06 22:16:44,040 +0200 [6MB] INFO  Launcher - Gate started in 448 ms
+2014.01.06 22:16:48,024 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:16:56,977 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:16:59,105 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:42:19,876 +0200 [11MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:44:37,723 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 22:44:37,725 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 22:44:38,160 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 22:44:38,160 +0200 [5MB] INFO  Labels - Available languages: [en, et]
+2014.01.06 22:44:38,183 +0200 [6MB] INFO  Launcher - Gate started in 461 ms
+2014.01.06 22:44:41,969 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:44:46,125 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:44:50,705 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:44:55,440 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 22:53:05,472 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:00:36,701 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 23:00:36,703 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 23:00:37,205 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 23:00:37,205 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.06 23:00:37,227 +0200 [6MB] INFO  Launcher - Gate started in 527 ms
+2014.01.06 23:00:38,956 +0200 [10MB] WARN  Labels - Missing label: menu.admin.dashboard
+2014.01.06 23:00:38,957 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:00:38,960 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:00:43,945 +0200 [10MB] WARN  Labels - Missing label: menu.admin.dashboard
+2014.01.06 23:00:43,947 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:00:43,949 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:01:38,077 +0200 [10MB] WARN  Labels - Missing label: menu.admin.dashboard
+2014.01.06 23:01:38,078 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:01:38,078 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:04:02,404 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 23:04:02,406 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 23:04:02,846 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 23:04:02,846 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.06 23:04:02,867 +0200 [6MB] INFO  Launcher - Gate started in 464 ms
+2014.01.06 23:04:07,543 +0200 [9MB] INFO  Labels - Language null
+2014.01.06 23:04:07,551 +0200 [10MB] INFO  Labels - Language null
+2014.01.06 23:04:07,551 +0200 [10MB] WARN  Labels - Missing label: menu.admin.dashboard
+2014.01.06 23:04:07,551 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:04:07,554 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:07:47,902 +0200 [4MB] ERROR Launcher - Starting Gate
+2014.01.06 23:07:47,904 +0200 [4MB] INFO  Launcher - Using Development
+2014.01.06 23:07:48,319 +0200 [5MB] INFO  Labels - Loaded 1 labels
+2014.01.06 23:07:48,319 +0200 [5MB] INFO  Labels - Available languages: [en, et, ru]
+2014.01.06 23:07:48,341 +0200 [6MB] INFO  Launcher - Gate started in 439 ms
+2014.01.06 23:07:51,555 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:07:51,559 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:08:09,726 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:08:09,726 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
+2014.01.06 23:08:11,435 +0200 [10MB] WARN  Labels - Missing label: menu.admin./
+2014.01.06 23:08:11,437 +0200 [10MB] INFO  UIServlet - [:8080] GET /admin/dashboard - 0ms
