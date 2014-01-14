@@ -27,12 +27,13 @@ public class Launcher {
     }
 
     void run() throws Exception {
-        loginService.loadUsers();
+
         Server server = new Server();
         ServerConnector http = getHttpConnector(server);
         server.setConnectors(new Connector[]{http});
         server.setHandler(createHandler());
         server.start();
+        loginService.loadUsers();
         LOG.info("Gate started in " + (System.currentTimeMillis() - startTimestamp) + " ms");
         server.join();
     }

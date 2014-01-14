@@ -33,4 +33,5 @@ public abstract class GuiceModule extends AbstractModule {
         velocity.init();
         return velocity;
     }
+
 }

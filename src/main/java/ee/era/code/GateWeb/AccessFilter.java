@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.util.Set;
 
 public class AccessFilter implements Filter {
-    @Inject LoginService loginService;
+    @Inject
+    LoginService loginService;
+
     private static final Logger LOG = Logger.getLogger(AccessFilter.class);
     public static final String PRINCIPAL = "ee.era.code.principal";
     public static final String REPRESENTEES = "ee.era.code.representees";
@@ -44,7 +46,13 @@ public class AccessFilter implements Filter {
                 return;
             }
         } else
+
+        {
+            request.setAttribute(PRINCIPAL, principal);
+            chain.doFilter(servletRequest, servletResponse);
             response.sendRedirect("/admin/dashboard");
+        }
+        request.setAttribute(PRINCIPAL, principal);
         chain.doFilter(servletRequest, servletResponse);
     }
 
@@ -61,11 +69,14 @@ public class AccessFilter implements Filter {
         LOG.info(un + ":" + pwd);
         if (un == null || pwd == null)
             return null;
-
+        if (loginService == null)
+            loginService = new LoginService();
+        loginService.loadUsers();
         return loginService.loginWithPassword(un, pwd);
     }
+
     @Override
-         public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) throws ServletException {
 
     }
 }

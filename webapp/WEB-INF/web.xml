@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         version="2.5">
     <display-name>Gates</display-name>
-
+<!--
     <filter>
         <filter-name>AccessFilter</filter-name>
         <filter-class>ee.era.code.GateWeb.AccessFilter</filter-class>
@@ -16,7 +16,7 @@
         <url-pattern>/home/*</url-pattern>
         <url-pattern>/</url-pattern>
     </filter-mapping>
-
+-->
     <servlet>
         <servlet-name>UIServlet</servlet-name>
         <servlet-class>ee.era.code.GateWeb.ui.UIServlet</servlet-class>
